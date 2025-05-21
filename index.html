@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Queensland Tourism</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="main-container">
+            <div>
+                <ul id="destinations-list"></ul>
+            </div>
+            <div id="thumbnails-container"></div>
+            <div id="weather-container"></div>
+            <div id="carousel-container" class="carousel-container">
+                <button class="carousel-btn prev-btn"><</button>
+                <div class="carousel-slides"></div>
+                <button class="carousel-btn next-btn">></button>
+            </div>
+            <div id="recently-viewed-container">
+                <h3>Recently Viewed</h3>
+                <div id="recently-viewed-list"></div>
+            </div>
+        </div>
+        <div id="modal" class="modal">
+            <span class="close">close</span>
+            <img class="modal-content" id="full-size-image-modal" />
+            <div id="caption"></div>
+        </div>
+        <script src="App.js"></script>
+    </body>
+</html>
